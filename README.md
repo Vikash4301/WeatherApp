@@ -1,12 +1,44 @@
-# React + Vite
+# 🌦️ Weather App  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **React.js-based Weather App** that provides real-time weather updates for any city using the **OpenWeatherMap API**. It features a **light/dark mode toggle**, dynamic weather icons, and a modern UI.
 
-Currently, two official plugins are available:
+## 🚀 Features  
+✅ **Search for any city** to get real-time weather updates  
+✅ **Displays** temperature, humidity, and wind speed  
+✅ **Weather icon updates dynamically** based on conditions  
+✅ **Dark/Light mode toggle** for better user experience  
+✅ **Responsive UI** with a clean & modern design  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🖼️ Demo  
+🔗 [Live Demo] https://weather-app-azure-one-81.vercel.app/
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack  
+- **Frontend**: React.js, Tailwind CSS  
+- **API**: OpenWeatherMap  
+- **Icons**: React Icons  
+
+## 🔧 Installation & Setup  
+1️⃣ **Clone the repository**  
+```sh
+1. git clone https://github.com/your-username/weather-app.git
+cd weather-app
+
+2. Install dependencies
+npm install
+3. Create .env file & add API key
+VITE_APP_ID=your_openweathermap_api_key
+4. Run the app
+npm run dev
+
+🌍 API Integration
+The app uses the OpenWeatherMap API to fetch weather data. Get your API key from here.
+
+📜 License
+This project is open-source under the MIT License.
+
+💬 Contact
+👤 Vikash Kumar Pathak
+📧 Email: vikashkumarpathak04@gmail.com
+🔗 GitHub: https://github.com/vikash4301
+
